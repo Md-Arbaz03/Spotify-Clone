@@ -118,13 +118,19 @@ a {
 }
 
 .badge {
-    background-color: #fff;
-    border: none;
-    border-radius: 100px;
-    padding: 0.25rem 1rem;
-    font-weight: 700;
-    margin-top: 0.5rem;
-    height: 2rem;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height: 2rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.badge:hover {
+  background-color: #fff;
+  transform: scale(1.05);
 }
 
 .dark-badge {
@@ -173,12 +179,19 @@ a {
 }
 
 .card {
-    background-color: #232323;
-    width: 10rem;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
+  background-color: #232323;
+  width: 10rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  background-color: #282828;
 }
 
 .card-container {
