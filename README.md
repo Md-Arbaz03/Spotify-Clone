@@ -6,7 +6,7 @@
 A static clone of Spotify's homepage and media player interface built using **HTML** and **CSS**. This project focuses on recreating Spotify's UI design for learning and practicing frontend development skills.
 
 ## 📌 Features
-- Responsive sidebar layout
+- Responsive layout
 - Playlists section with song cards
 - Footer media player design
 - Interactive hover effects on buttons and icons
