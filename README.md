@@ -9,8 +9,8 @@
 - Interactive hover effects on buttons and icons
 
 ## 🛠️ Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Font Awesome
 - Google Font
 
